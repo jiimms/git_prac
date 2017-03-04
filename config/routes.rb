@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'games/new'
+
+  get 'games/index'
+
   get 'books/index'
 
   get 'books/title'
