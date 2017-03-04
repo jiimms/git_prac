@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'books/index'
+
+  get 'books/title'
+
+  get 'books/author'
+
   resources :users
 
   root 'users#index'
